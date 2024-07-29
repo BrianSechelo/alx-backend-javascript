@@ -1,4 +1,4 @@
-function getListStudents() {
+export default function getListStudents() {
     const studentList1 = {
         id: 1,
         firstName: "Guillaume",
@@ -17,5 +17,3 @@ function getListStudents() {
 
     return [studentList1, studentList2, studentList3];
 }
-
-export default getListStudents;
